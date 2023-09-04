@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <style>
+        /* Add your CSS styles for the header here */
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+    </style>
+</head>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar Example</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation Bar Styles */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="mainfile.html">Home</a>
+        <a href="#about">About</a>
+        <a href="result.html">result</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Page Content -->
+    <div style="padding: 20px;">
+        <h1>Welcome to Our Website</h1>
+        <p>.</p>
+    </div>
+</body>
+</html>
+
+
+    <!-- The rest of your webpage content goes here -->
+
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote Counter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .counter {
+            font-size: 48px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Vote Counter</h1>
+    </header>
+    <div class="container">
+        <div class="counter" id="counter">1</div>
+    </div>
+
+    <script>
+        // JavaScript code to increment the counter
+    
+
+        function incrementCounter() {
+            if (count <= 100) {
+                counterElement.innerText = count;
+                count++;
+                setTimeout(incrementCounter, 1000); // Change the delay (in milliseconds) to adjust the speed of counting
+            }
+        }
+
+        // Start counting when the page loads
+        window.addEventListener('load', incrementCounter);
+    </script>
+    <footer>
+        <h1>PUNJAB VOTES </h1>
+    </footer>
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote Counter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .counter {
+            font-size: 48px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Vote Counter</h1>
+    </header>
+    <div class="container">
+        <div class="counter" id="counter">100</div>
+    </div>
+
+    <script>
+        // JavaScript code to increment the counter
+        const counterElement = document.getElementById('counter');
+        let count = 1;
+
+        function incrementCounter() {
+            
+                counterElement.innerText = count;
+                count++;
+                setTimeout(incrementCounter, 1000); // Change the delay (in milliseconds) to adjust the speed of counting
+            }
+        
+
+        // Start counting when the page loads
+        window.addEventListener('load', incrementCounter);
+    </script>
+    <footer>
+        <h1>INDIA VOTES </h1>
+    </footer>
+</body>
+
+</html>
